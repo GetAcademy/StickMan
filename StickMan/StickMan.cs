@@ -15,6 +15,16 @@
             _rightArmIsUp = rightArmIsUp;
         }
 
+        public void Swap()
+        {
+            _leftArmIsUp = !_leftArmIsUp;
+            _rightArmIsUp = !_rightArmIsUp;
+        }
+
+        public void MoveRight()
+        {
+            _col++;
+        }
 
         public void Draw()
         {
